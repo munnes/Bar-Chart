@@ -1,0 +1,22 @@
+#title{
+    fill:rgb(47, 9, 90);
+    font-size: xx-large;
+}
+.bar{
+    stroke: pink;
+    fill:rgb(35, 6, 68);
+}
+body{
+    font-family: sans-serif;
+}
+.bar:hover {
+    fill: pink;
+  }
+
+  .tick{
+      font-size: 12px;
+  }
+ #y-txt{
+    font-size: 17px;
+    fill:rgb(35, 6, 68);
+ }
