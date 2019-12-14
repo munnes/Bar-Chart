@@ -33,7 +33,6 @@ fetch('https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/maste
           m=+d3.timeFormat("%m")(tParser(ddata[i][0]));
           data.push([xArray[i],yArray[i],m])
                }      
-     xArray.push(2016)
         xMin=d3.min(xArray);
         xMax=d3.max(xArray);
         yMin=d3.min(yArray);
@@ -47,7 +46,7 @@ render(data)// should be here to work with the above values
   
       /* x-axis*/
 let xScale = d3.scaleLinear()
-     .domain([xMin, xMax])
+     .domain([xMin, xMax+1])
      .range([0, width - 100]);
 
      /*y-axis */
